@@ -1041,7 +1041,7 @@ namespace LiteDbExplorer
         {
             if (e.PropertyName == "FieldSortOrder")
             {
-                UpdateGridColumns();
+                UpdateGridColumns( doc );
             }
         }
 
